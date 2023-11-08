@@ -14,6 +14,4 @@ def generate_qrcode(text):
     img=qr.make_image(color="black",back_color="white")
     img.save("pavan1.png")
 
-generate_qrcode('''Hlo sikku fafa
-                Idigo puvvu 🌼 
-Nvante lovvu <3''')    
+generate_qrcode('''Hlo''')    
